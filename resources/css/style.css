@@ -50,16 +50,20 @@ nav {
 /*=============================JUMBOTRON============================*/
 .jumbotron {
   background-color: #d8d8d8;
-  padding: 6rem 1.5rem 2rem 1.5rem;
+  padding-top: 4rem;
   display: flex;
   width: 100%;
   height: auto;
 }
-.jumbotron img {
+.jumbotron-photo {
   width: 60%;
-  height: 60%;
+  padding: 2rem 1.5rem;
+}
+.jumbotron-photo img {
+  width: 100%;
+  height: auto;
   display: flex;
-  margin-right: 1.5rem;
+
 }
 .jumbotron-text {
   display: flex;
@@ -67,8 +71,8 @@ nav {
   justify-content: center;
   color: black;
   font-weight: bold;
-  width: 30%;
-  margin: auto 1.5rem;
+  width: 40%;
+  padding: 2rem 1rem auto 1rem;
 }
 .jumbotron-text h1 {
   font-size: 3rem;
@@ -95,28 +99,82 @@ nav {
 }
 .news .feature {
   width: 60%;
-  margin: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
   border-right: 1px solid black;
 }
 .news img {
   display: flex;
-  width: 95%;
+  width: 100%;
 }
 .news .feature-text {
-  width: 95%;
+  width: 100%;
+}
+.feature-text h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.feature-text p {
+  margin-top: 2rem;
+}
+.feature-text footer {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 .other-news {
   display: flex;
   flex-flow: column;
-  color: black;
-  width: 30%;
+  width: 40%;
+  padding: 2rem 1rem auto 1rem;
 }
 .info {
   display: flex;
   flex-flow: row;
-  /*margin: 2rem 1rem 1rem 1rem;*/
+  width: 100%;
+  height: auto;
+  align-items: center;
   border-bottom: 1px solid black;
+
 }
 .info-photo {
   padding: 2rem 1rem 1rem 1rem;
+  width: 35%;
+  height: auto;
+}
+.info-text {
+  width: 65%;
+}
+.info-text h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.info-text a{
+  text-decoration: none;
+}
+/*===================================COURSES=================================*/
+.course-contain {
+  background-color: #d8d8d8;
+}
+.course-contain h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: block;
+  padding: 2rem 0;
+}
+.courses {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 4.5rem 2rem 4.5rem;
+  justify-content: space-around;
+}
+.course {
+  display: flex;
+  width: 28%;
+  flex-direction: column;
+  background-color: white;
+}
+.course-photo img {
+  width: 100%;
+  height: auto;
 }
