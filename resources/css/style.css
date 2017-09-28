@@ -121,6 +121,7 @@ button:hover {
 }
 .news .feature-text {
   width: 100%;
+  left: 1rem;
 }
 .feature-text h1 {
   font-size: 1.8rem;
@@ -150,6 +151,9 @@ button:hover {
   align-items: center;
   border-bottom: 1px solid black;
 
+}
+.info-photo-mobile {
+  display: none;
 }
 .other-news .info:last-child {
   background-color: #d8d8d8;
@@ -326,10 +330,9 @@ footer {
   .desktop {
     display: none;
   }
-  .head nav {
+  /*.head nav {
     width: 100%;
-
-  }
+  }*/
   nav .mobile {
     display: flex;
     flex-direction: row;
@@ -391,7 +394,7 @@ footer {
     display: flex;
     width: 100%;
     flex-direction: column;
-    padding-left: 1rem;
+    /*padding-left: 1rem;*/
   }
   .other-news {
     display: flex;
@@ -424,7 +427,7 @@ footer {
     display: flex;
     width: 100%;
     margin-bottom: 1rem;
-    padding-left: 1rem;
+    /*padding-left: 1rem;*/
   }
   .other-thesis {
     display: flex;
@@ -432,4 +435,97 @@ footer {
   }
 }
 /*======================MOBILE======================*/
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 480px){
+  .jumbotron-text {
+    margin: 2rem auto;
+  }
+.jumbotron-text p {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+ bottom {
+  margin-bottom: 2rem;
+}
+
+.news {
+  display: flex;
+  width: 100%;
+}
+.feature {
+  display: none;
+}
+.other-news {
+  display: flex;
+  /*flex-direction: column;*/
+  width: 100%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  /*width: 100%;*/
+}
+.info-photo {
+  display: none;
+}
+.info-photo-mobile {
+  display: block;
+  padding: 1rem;
+}
+.info-photo-mobile img {
+  display: block;
+  width: 100%;
+}
+.info-text {
+  width: 100%;
+  text-align: center;
+}
+
+.course-contain {
+  /*background: green;*/
+}
+
+.courses {
+  /*background: yellow;*/
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem 1rem 1rem;
+  margin: 0 1rem 1rem 1rem;
+  text-align: center;
+}
+
+.course {
+  /*background: pink;*/
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.course-photo {
+  display: none;
+}
+.course-text {
+  width: 100%;
+  text-align: left;
+}
+
+.course-text h2 {
+  width: 100%;
+}
+.course-text h3 {
+  display: none;
+}
+.course-text p {
+  display: none;
+}
+.other-thesis {
+  display: none;
+}
+.feature-thesis-text {
+  display: none;
+}
+.feature-thesis-video video {
+  padding-bottom: 0px;
+}
+.footer {
+  display: none;
+}
+}
