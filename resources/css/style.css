@@ -328,8 +328,9 @@ footer {
   }
   .head nav {
     width: 100%;
+
   }
-  .mobile {
+  nav .mobile {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -390,7 +391,7 @@ footer {
     display: flex;
     width: 100%;
     flex-direction: column;
-    /*text-align: center;*/
+    padding-left: 1rem;
   }
   .other-news {
     display: flex;
@@ -423,6 +424,7 @@ footer {
     display: flex;
     width: 100%;
     margin-bottom: 1rem;
+    padding-left: 1rem;
   }
   .other-thesis {
     display: flex;
